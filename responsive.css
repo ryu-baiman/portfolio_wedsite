@@ -1,5 +1,5 @@
 /* スマホ向けレイアウト */
-@media all and (max-width:500px) {
+@media screen and (max-width: 767px) {
     /* メニュー画面 */
     #menu_btn  {
         margin-right: 30px;
