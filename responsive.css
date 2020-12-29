@@ -2,7 +2,7 @@
 @media screen and (max-width: 767px) {
     /* メニュー画面 */
     #menu_btn  {
-        margin-right: 30px;
+        margin-right: 70px;
     }
 
     #menu  {
@@ -26,12 +26,11 @@
         width: 200px;
         height: 200px;
         margin-top: 50px;
-        margin-left: 120px;
+        margin-left: 100px;
     }
 
     .myself-text  {
-        margin-top: 10px;
-        margin-right: 40px;
+        text-align: center;
         font-size: 20px;
         clear: right;
     }
@@ -42,7 +41,7 @@
     }
 
     .contents-box  {
-        padding-left: 70px;
+        padding-left: 50px;
     }
 
     .contents-icon  {
