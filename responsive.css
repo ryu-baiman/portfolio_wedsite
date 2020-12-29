@@ -30,7 +30,7 @@
     }
 
     .myself-text  {
-        text-align: center;
+        margin: 0 30px;
         font-size: 20px;
         clear: right;
     }
@@ -41,7 +41,7 @@
     }
 
     .contents-box  {
-        padding-left: 50px;
+        padding-left: 70px;
     }
 
     .contents-icon  {
