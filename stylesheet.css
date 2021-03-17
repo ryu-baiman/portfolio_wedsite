@@ -75,6 +75,7 @@ form, input, div {
 .bg_img {
     background: url(https://www.pakutaso.com/shared/img/thumb/TKL0614_27_TP_V.jpg);
     height: 800px;
+    width: 100%;
     background-size: 100%;
     background-position: center;
     position: relative;
@@ -112,6 +113,7 @@ form, input, div {
 
 .myself-heading h3  {
     color: orange;
+    padding-bottom: 10px;
 }
 
 .myself-heading h2  {
@@ -142,7 +144,7 @@ form, input, div {
     color: #444444;
 }
 
-/* スキルセット */
+/* スキル */
 .contents  {
     background-color: rgba(192, 192, 192, 0.2);
     height: 800px;
@@ -155,6 +157,7 @@ form, input, div {
 
 .contents-heading h3  {
     color: orange;
+    padding-bottom: 10px;
 }
 
 .contents-heading h2  {
@@ -236,22 +239,23 @@ footer  {
 footer h3  {
     margin-top: 70px;
     color: orange;
+    padding-bottom: 10px;
 }
 
 footer h2  {
     color: #444444;
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 footer p  {
-    line-height: 50px;
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .contact-box  {
     display: inline-block;
     text-align: center;
-    
 }
 
 .contact-icon  {
