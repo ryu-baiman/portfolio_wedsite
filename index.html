@@ -6,7 +6,6 @@
         <title>Portfolio</title>
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="stylesheet" href="responsive.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     </head>
     <body>
@@ -30,13 +29,16 @@
                     <a href="#skill">Skill</a>
                 </li>
                 <li>
+                    <a href="#site">Website</a>
+                </li>
+                <li>
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
         <!--トップ画面-->
-        <div class="bg_img" id="page-top">
-            <h1>Portfolio</h1>
+        <div class="page-top" id="page-top">
+            <p class="main">Portfolio</p>
         </div>
         <!--自己紹介-->
         <div class="myself" id="about">
@@ -44,14 +46,12 @@
                 <h3>About</h3>
                 <h2>自己紹介</h2>
             </div>
-            <div class="myself-box">
+            <div class="fade_in">
                 <img class="myself-img" src="https://lh3.googleusercontent.com/q9I_YPo8JIVd70Pk3Gk70ub2yin1s3vqTQRGWdwKQDqHcpzNCTicWICbNKKaMr1IbZ3Mwkcy5L8LyTDJDWmObPoM5aaC46MeVabN1Cq2FfTmYdFThQFGAVKtGjyQMoQDHA_pGvjoI96uTAQGSMVfhum38MEFMIhscPUmJtY-_-tNQMLrW8IvXSGniNPxm9YnWTB1TS8bFevi2jO1kRhv7Xh4dRQwC5p9fau_LybRvJwxgHfch_nGAI-BJa-KiEOEUrhW2eW9GIA4uopf-DEXDVohL1ozFNxr17_JnQbj5xUVYNbBpZILurnF90aOj7k_mt8jT5U9FdAo9IFkEzUfsY8_zKJswYMExYmBt0pcSUSph5bdRHqs6C7DSDuHLqXbvh2P_MINcKpXt-m5SSIzHqB8VXCR3bi8gl2kTVfN__HkBnBd33KPM8NO60WQcgIIqyVe3NsEGvwwq44wkZ7N7u6Cu57ETtCqQh40ndd04JY6duDWtHBWpfbFlZczm72kPyuAeBobb1sCLW07jSLGn8sdM8LH5Uho0Co4YXBTI-mxW6opsa9v7-i9HdifiJJI5AAH2CQF43cpu5XiwqNGvpw5kQUHYa_WLzdaCfY4QBNCZB8QJMo1T-CkFj3t88Bz_LaeIqmmrE5FqRJqXyBOWQXnlTAh4KnsYNyQCAgfCE0jsSVAV2LrDUMcQSZFqg=w857-h943-no?authuser=0">
                 <div class="myself-text">
-                    <p>◎名前：Ryusei Matsui</p>
-                    <p>◎出身：北海道</p>
-                    <p>◎学歴：札幌大学経済学部</p>
-                    <p>◎勉強期間：フロント技術を４ヵ月</p>
-                    <p>◎その他：動画編集の仕事経験あり</p>
+                    <p>◎名前：松井琉聖</p>
+                    <p>◎学歴：札幌大学</p>
+                    <p>◎プログラミング学習期間：４か月</p>
                 </div>
             </div>
         </div>
@@ -63,34 +63,36 @@
             </div>
             <div class="contents-box">
                 <div class="html">
-                    <h2>HTML&CSS</h2>
                     <span class="contents-icon">
                         <i class="fab fa-html5"></i>
                     </span>
-                    <p>HTMLとCSSでのサイトのコーディングが出来ます。細かいデザインのこだわりやレスポンシブ対応もいたします。</p>
+                    <h2>HTML&CSS</h2>
                 </div>
                 <div class="js">
-                    <h2>jQuery(js)</h2>
                     <span class="contents-icon">
                         <i class="fab fa-js"></i>
                     </span>
-                    <p>JavaScript（jQuery）で動的なサイトを作れます。主にスクロールやメニュー画面など。</p>
+                    <h2>jQuery(js)</h2>
                 </div>
-                <div class="git">
-                    <h2>git(github)</h2>
+                <div class="wp">
                     <span class="contents-icon">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-wordpress"></i>
                     </span>
-                    <P>githubでのサイト公開・コードの共有や管理が出来ます。</P>
+                    <h2>wordpress</h2>
                 </div>
             </div>
         </div>
+        <!--ポートフォリオ一覧-->
+        <div class="website" id="site">
+            <h3>Website</h3>
+            <h2>制作実績</h2>
+            <a href="https://ryu-baiman0709.website/S&C%20Technology/">wordpress構築サイト</a>
+        </div>
         <!--連絡先-->
         <footer id="contact">
-            <h3>CONTACT</h3>
+            <h3>Contact</h3>
             <h2>お問い合わせ・SNS</h2>
-            <p>サイト作成の依頼やお問い合わせは</p>
-            <p>メールまたはツイッターのDMへご連絡ください。</p>
+            <p>サイト作成の依頼やお問い合わせは<br>メールまたはツイッターのDMへご連絡ください。</p>
             <div class="contact-box">
                 <div class="mail">
                     <a class="contact-icon" href="mailto:ryusei.kaisei0709@gmail.com">
@@ -104,6 +106,11 @@
                 </div>
             </div>
         </footer>
+        <!--1.jQuery-->
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <!--2.jQueryプラグイン-->
+        
+        <!--3.自作javaScript-->
         <script src="script.js"></script>
     </body>
 </html>
