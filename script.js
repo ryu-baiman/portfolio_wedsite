@@ -52,7 +52,7 @@ $(function()  {
         });
       });
     
-    //HTMLの場合
+    //アイコンのフェードイン
     $(window).scroll(function (){
       $(".html").each(function(){
         var imgPos = $(this).offset().top;
